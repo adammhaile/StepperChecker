@@ -61,8 +61,8 @@ AR Path="/5D4AFE00/5D4B27F8" Ref="C3"  Part="1"
 AR Path="/5D4C0FEF/5D4B27F8" Ref="C?"  Part="1" 
 AR Path="/5D4C1080/5D4B27F8" Ref="C14"  Part="1" 
 F 0 "C3" H 4935 2154 50  0000 R CNN
-F 1 "47uF" H 4935 2245 50  0000 R CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5050 2200 50  0001 C CNN
+F 1 "100uF" H 4935 2245 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5050 2200 50  0001 C CNN
 F 3 "~" H 5050 2200 50  0001 C CNN
 F 4 "" H 5050 2200 50  0001 C CNN "SKU"
 F 5 "" H 5050 2200 50  0001 C CNN "MPN"
@@ -284,4 +284,91 @@ NoConn ~ 3300 3600
 NoConn ~ 2400 2950
 NoConn ~ 2400 3600
 NoConn ~ 2400 2300
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 607CE925
+P 1650 2100
+F 0 "JP1" H 1650 2305 50  0000 C CNN
+F 1 "CFG1" H 1650 2214 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1650 2100 50  0001 C CNN
+F 3 "~" H 1650 2100 50  0001 C CNN
+	1    1650 2100
+	1    0    0    -1  
+$EndComp
+Text Label 1650 2250 3    31   ~ 0
+CFG1
+Text GLabel 1450 2100 0    31   Input ~ 0
+5V
+$Comp
+L power:GND #PWR04
+U 1 1 607CFEA4
+P 1850 2100
+AR Path="/5D4AFE00/607CFEA4" Ref="#PWR04"  Part="1" 
+AR Path="/5D4C0FEF/607CFEA4" Ref="#PWR?"  Part="1" 
+AR Path="/5D4C1080/607CFEA4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR04" H 1850 1850 50  0001 C CNN
+F 1 "GND" H 1855 1927 50  0000 C CNN
+F 2 "" H 1850 2100 50  0001 C CNN
+F 3 "" H 1850 2100 50  0001 C CNN
+	1    1850 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP3
+U 1 1 607D0F9B
+P 1650 2750
+F 0 "JP3" H 1650 2955 50  0000 C CNN
+F 1 "CFG2" H 1650 2864 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1650 2750 50  0001 C CNN
+F 3 "~" H 1650 2750 50  0001 C CNN
+	1    1650 2750
+	1    0    0    -1  
+$EndComp
+Text Label 1650 2900 3    31   ~ 0
+CFG2
+Text GLabel 1450 2750 0    31   Input ~ 0
+5V
+$Comp
+L power:GND #PWR07
+U 1 1 607D1107
+P 1850 2750
+AR Path="/5D4AFE00/607D1107" Ref="#PWR07"  Part="1" 
+AR Path="/5D4C0FEF/607D1107" Ref="#PWR?"  Part="1" 
+AR Path="/5D4C1080/607D1107" Ref="#PWR?"  Part="1" 
+F 0 "#PWR07" H 1850 2500 50  0001 C CNN
+F 1 "GND" H 1855 2577 50  0000 C CNN
+F 2 "" H 1850 2750 50  0001 C CNN
+F 3 "" H 1850 2750 50  0001 C CNN
+	1    1850 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP4
+U 1 1 607D222F
+P 1650 3400
+F 0 "JP4" H 1650 3605 50  0000 C CNN
+F 1 "CFG3" H 1650 3514 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1650 3400 50  0001 C CNN
+F 3 "~" H 1650 3400 50  0001 C CNN
+	1    1650 3400
+	1    0    0    -1  
+$EndComp
+Text Label 1650 3550 3    31   ~ 0
+CFG3
+Text GLabel 1450 3400 0    31   Input ~ 0
+5V
+$Comp
+L power:GND #PWR012
+U 1 1 607D23CB
+P 1850 3400
+AR Path="/5D4AFE00/607D23CB" Ref="#PWR012"  Part="1" 
+AR Path="/5D4C0FEF/607D23CB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4C1080/607D23CB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR012" H 1850 3150 50  0001 C CNN
+F 1 "GND" H 1855 3227 50  0000 C CNN
+F 2 "" H 1850 3400 50  0001 C CNN
+F 3 "" H 1850 3400 50  0001 C CNN
+	1    1850 3400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
