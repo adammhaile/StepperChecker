@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP OS103012MU1QP1
+D Switch Slide ON ON ON SP3T Top Slide 0.2A 30VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk
+K
+F 
+$ENDCMP
+#
+#End Doc Library

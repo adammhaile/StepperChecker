@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ALPS RK09D1130C3W
+#
+DEF RK09D1130C3W VR 0 40 Y Y 2 L N
+F0 "VR" 0 300 50 H V L CNN 
+F1 "RK09D1130C3W" 0 400 50 H V L CNN 
+F2 "ALPS-RK09D1130C3W-*" 0 500 50 H I L CNN 
+F3 "http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09D1130C3W.html" 0 600 50 H I L CNN 
+F4 "Res" 0 700 50 H I L CNN "category"
+F5 "yes" 0 800 50 H I L CNN "lead free"
+F6 "3fd1d7b23cdbb692" 0 900 50 H I L CNN "library id"
+F7 "ALPS" 0 1000 50 H I L CNN "manufacturer"
+F8 "688-RK09D1130C3W" 0 1100 50 H I L CNN "mouser part number"
+F9 "POT_VER_PTH_5" 0 1200 50 H I L CNN "package"
+F10 "10kΩ" 0 1300 50 H I L CNN "resistance"
+F11 "yes" 0 1400 50 H I L CNN "rohs"
+F12 "+70°C" 0 1500 50 H I L CNN "temperature range high"
+F13 "-10°C" 0 1600 50 H I L CNN "temperature range low"
+DRAW
+X 1 1 100 0 100 R 40 0 1 1 U 
+X 3 3 600 0 100 L 40 0 1 1 U 
+X 2 2 400 -200 130 U 40 0 1 1 U 
+P 2 1 1 0 200 0 230 50 N
+P 2 1 1 0 230 50 280 -50 N
+P 2 1 1 0 280 -50 330 50 N
+P 2 1 1 0 330 50 380 -50 N
+P 2 1 1 0 380 -50 430 50 N
+P 2 1 1 0 430 50 480 -50 N
+P 2 1 1 0 480 -50 500 0 N
+P 2 1 1 0 400 -70 370 -110 N
+P 2 1 1 0 400 -70 430 -110 N
+X MNT_1 4 100 0 100 R 40 40 2 1 U 
+X MNT_2 5 100 -100 100 R 40 40 2 1 U 
+S 200 200 700 -200 2 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

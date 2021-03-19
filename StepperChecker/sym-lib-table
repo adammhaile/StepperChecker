@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Feather)(type Legacy)(uri G:/dev/StepperChecker/libs/Feather/Feather.lib)(options "")(descr ""))
+  (lib (name 70543-0038)(type Legacy)(uri G:/dev/StepperChecker/libs/Mouser/70543-0038.lib)(options "")(descr ""))
+  (lib (name ALPS-RK09D1130C3W-0)(type Legacy)(uri G:/dev/StepperChecker/libs/Mouser/ALPS-RK09D1130C3W-0.lib)(options "")(descr ""))
+  (lib (name Mouser)(type Legacy)(uri G:/dev/StepperChecker/libs/Mouser/Mouser.lib)(options "")(descr ""))
+  (lib (name pj-202a)(type Legacy)(uri G:/dev/StepperChecker/libs/pj-202a.lib)(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Mouser)(type KiCad)(uri G:/dev/StepperChecker/libs/Mouser/Mouser.pretty)(options "")(descr ""))
+  (lib (name Feather)(type KiCad)(uri G:/dev/StepperChecker/libs/Feather/Feather.pretty)(options "")(descr ""))
+)
