@@ -397,7 +397,7 @@ F 12 "Active" H 2600 5200 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 Text GLabel 4000 4700 2    31   Input ~ 0
-5V
+3.3V
 $Comp
 L power:GND #PWR05
 U 1 1 6058BB0A
@@ -522,7 +522,7 @@ $EndComp
 Wire Wire Line
 	5650 4100 6050 4100
 Wire Wire Line
-	5650 4200 6050 4200
+	5650 4200 5850 4200
 Wire Wire Line
 	6050 4300 5650 4300
 Wire Wire Line
@@ -635,12 +635,12 @@ Wire Wire Line
 Wire Wire Line
 	2700 3100 2950 3100
 $Comp
-L Jumper:SolderJumper_2_Bridged JP2
+L Jumper:SolderJumper_2_Open JP2
 U 1 1 6069EE65
 P 8650 4650
 F 0 "JP2" H 8650 4855 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 8650 4764 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 8650 4650 50  0001 C CNN
+F 1 "SolderJumper_2_Open" H 8650 4764 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8650 4650 50  0001 C CNN
 F 3 "~" H 8650 4650 50  0001 C CNN
 	1    8650 4650
 	1    0    0    -1  
@@ -848,4 +848,13 @@ Wire Notes Line
 	1000 2500 3400 2500
 Wire Notes Line
 	1000 3450 3400 3450
+Text GLabel 5300 4150 0    31   Input ~ 0
+3.3V
+Wire Wire Line
+	5300 4150 5850 4150
+Wire Wire Line
+	5850 4150 5850 4200
+Connection ~ 5850 4200
+Wire Wire Line
+	5850 4200 6050 4200
 $EndSCHEMATC
